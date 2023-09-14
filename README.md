@@ -1,6 +1,7 @@
 # Rick and Morty Challenge Backend
 ### init: npm install
 ### start: npm start
+### server: http://localhost:8080
 ### GraphQL: query
 ```javascript
  const response = await axios.post('https://rickandmortyapi.com/graphql', {
