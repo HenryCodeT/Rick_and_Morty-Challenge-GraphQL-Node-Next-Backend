@@ -22,8 +22,6 @@ La carpeta `routes` almacena los archivos que definen las rutas y la asignación
 
 La carpeta `services` es la encargada de servir a los controladores. En esta carpeta, se han implementado servicios que interactúan con una consulta GraphQL de "Rick and Morty" para obtener los datos necesarios. Estos servicios proporcionan los datos requeridos por los controladores.
 
-## Endpoints
-
 ### server: http://localhost:8080
 ### GraphQL: query
 ```javascript
