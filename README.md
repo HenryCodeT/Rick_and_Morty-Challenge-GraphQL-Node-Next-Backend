@@ -1,7 +1,7 @@
-# Rick_and_Morty-Challenge-GraphQL-Node-Next-Backend
+# Rick and Morty Challenge Backend
 ### init: npm install
 ### start: npm start
-# GraphQL: query
+### GraphQL: query
 ```javascript
  const response = await axios.post('https://rickandmortyapi.com/graphql', {
       query: `
@@ -23,3 +23,6 @@
     });
 }
 ```
+### Endpoints
+- (get all characters) GET: http://localhost:8080/api/rick-morty-characters
+- (get human characters) GET: http://localhost:8080/api/rick-morty-characters/humans
